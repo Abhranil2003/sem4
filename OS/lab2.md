@@ -37,7 +37,7 @@ _d) Make a copy of the file biodata into another file text within the directory 
 
 _e) Move the file text from cprogs to projects._<br>
 
-**$mv ../cprogs/text.txt .**
+**$mv /home/user/cse/cprogs/text.txt /home/user/cse/projects**
 
 ---
 
