@@ -61,19 +61,19 @@ _h) Change the permissions of the file newtext to rw-rw-rw-._<br>
 
 _i) List all filenames starting with ‘a’ or ‘b’ or ‘m’._<br>
 
-**$find . -type f -name "[a-b-m]\*"**<br>
+**$ls [abm]*<br>
 
 ---
 
 _j) List all filenames that end with a digit._<br>
 
-**\$find . -type f -name "\*[0-9].\*"**
+**\$find ./ -type f -name '*[!0-9][0-9].txt'
 
 ---
 
 _k) List all files in the current directory whose second character is a digit._<br>
 
-**\$find . -type f -name "?[0-9]\*"**
+**\$find ./ -type f -name '?[0-9]*.txt'
 
 ---
 
