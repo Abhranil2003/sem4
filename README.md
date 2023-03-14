@@ -46,7 +46,7 @@ Go to :arrow_right: [Study Materials :books:](#study-materials-books)
 | Divide & Conquer I    | [Assignment 2](./DAA/assignment2/) |
 | Divide & Conquer II   | [Assignment 3](./DAA/assignment3/) |
 | Greedy Method I       | [Assignment 4](./DAA/assignment4/) |
-| Greedy Method II      | Assignment 5                       |
+| Greedy Method II      | [Assignment 5](./DAA/assignment5/) |
 
 ---
 
