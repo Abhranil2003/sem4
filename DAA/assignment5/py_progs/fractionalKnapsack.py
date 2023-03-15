@@ -1,3 +1,7 @@
+# Implement a greedy algorithm and find the optimal solution to the fractional Knapsack
+# instance n = 7, m = 15, (p1 p2 p3 p4 ......p7) = (1, 5, 10, 10, 5, 7, 8) and
+# (w1, w2..........w7) = (3, 2, 5, 7, 2, 8, 4).
+
 class Item:
     def __init__(self, value, weight):
         self.value = value
