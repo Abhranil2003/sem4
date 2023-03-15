@@ -81,7 +81,7 @@ void kruskalMST(int v, int n, struct graph g[])
         int p2 = v2 - 'A';
         if (findParent(parent, p1) != findParent(parent, p2))
         {
-            unionSet(p1, p2, parent, rank, 26);
+            unionSet(p1, p2, parent, rank, v);
             minCost += wt;
             printf("%c - %c \t%d\n", v1, v2, wt);
         }
