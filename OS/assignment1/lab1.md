@@ -2,59 +2,77 @@
 
 ---
 
-_a) List the names of the users logged in and their total count without displaying any further details._<br>
+_a) List the names of the users logged in and their total count without displaying any further details._
 
-**$who -q**
-
----
-
-_b) Find out your terminal’s device name._<br>
-
-**$tty**
+```bash
+$ who -q
+```
 
 ---
 
-_c) Display current date in the form dd/mm/yyyy._<br>
+_b) Find out your terminal’s device name._
 
-**$date +%d/%m/%y**
-
----
-
-_d) Find out your machine’s name and the version of the operating system._<br>
-
-**$uname -nr**
+```bash
+$ tty
+```
 
 ---
 
-_e) Clear the screen and place the cursor at row 12, column 25._<br>
+_c) Display current date in the form dd/mm/yyyy._
 
-**$clear** <br>
-**$tput cup 12 25**
-
----
-
-_f) Find the decimal equivalent of 1101001._ <br>
-
-**$echo "ibase=2; 1101001" | bc**
+```bash
+$ date +%d/%m/%y
+```
 
 ---
 
-_g) Find out the users who are idling._<br>
+_d) Find out your machine’s name and the version of the operating system._
 
-**$w**
-
----
-
-_h) Use man to get help_<br>
-
-**$man tty**
+```bash
+$ uname -nr
+```
 
 ---
 
-_i) Ensure that bc displays the results of all divisions using three decimal places._<br>
+_e) Clear the screen and place the cursor at row 12, column 25._
 
-**$bc**<br>
-**scale=3**<br>
-**10/3**<br>
-**3.333**<br>
-**quit**
+```bash
+$ clear
+$ tput cup 12 25
+```
+
+---
+
+_f) Find the decimal equivalent of 1101001._
+
+```bash
+$ echo "ibase=2; 1101001" | bc
+```
+
+---
+
+_g) Find out the users who are idling._
+
+```bash
+$ w
+```
+
+---
+
+_h) Use man to get help_
+
+```bash
+$ man tty
+```
+
+---
+
+_i) Ensure that bc displays the results of all divisions using three decimal places._
+
+```bash
+$ bc
+scale=3
+10/3
+3.333
+quit
+```

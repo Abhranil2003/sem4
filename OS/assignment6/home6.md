@@ -61,13 +61,10 @@ do
     char=${sentence:$i:1}
     case $char in
         [aeiou])
-            vowel_count=$((vowel_count+1))
-            ;;
+            vowel_count=$((vowel_count+1));;
         [bcdfghjklmnpqrstvwxyz])
-            consonant_count=$((consonant_count+1))
-            ;;
-        *)
-            ;;
+            consonant_count=$((consonant_count+1));;
+        *) ;;
     esac
 done
 

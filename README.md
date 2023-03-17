@@ -33,6 +33,7 @@ Go to :arrow_right: [Study Materials :books:](#study-materials-books)
 | Week 4 | [Lab Assignment 4](./OS/assignment4/lab4.md)                                                     |
 | Week 5 | [Lab Assignment 5](./OS/assignment5/lab5.md) <br> [Home Assignment 5](./OS/assignment5/home5.md) |
 | Week 6 | [Lab Assignment 6](./OS/assignment6/lab6.md) <br> [Home Assignment 6](./OS/assignment6/home6.md) |
+| Week 7 | [Lab Assignment 7](./OS/assignment7/lab7.md) <br> [Home Assignment 7](./OS/assignment7/home7.md) |
 
 ---
 
