@@ -5,18 +5,22 @@
 _1) Write a shell script to find the factorial value of any integer entered through the keyboard._
 
 ```bash
-#!/bin/bash
+#!/bin/sh
 
-echo "Enter a number:"
+echo "Enter an integer: "
 read num
 
-fact=1
-for (( i=1; i<=num; i++ ))
+factorial=1
+i=1
+
+while [ $i -le $num ]
 do
-  fact=$((fact * i))
+    factorial=`expr $factorial \* $i`
+    i=`expr $i + 1`
 done
 
-echo "The factorial of $num is: $fact"
+echo "The factorial of $num is $factorial"
+
 ```
 
 ---
